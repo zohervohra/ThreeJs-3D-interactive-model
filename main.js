@@ -39,7 +39,7 @@ loader.load('nike/scene.gltf', function (gltf) {
     scene.add(nikeModel);
 
     // for scaling
-    nikeModel.scale.set(1, 1, 1); 
+    nikeModel.scale.set(1.5, 1.5, 1.5); 
 
     // Compute the bounding box of the model
     const box = new THREE.Box3().setFromObject(nikeModel);
@@ -60,7 +60,7 @@ loader.load('nike/scene.gltf', function (gltf) {
 
     // Hide loading message
     loadingMessage.style.display = 'none';
-    
+
 
 }, undefined, function (error) {
     console.error(error);
