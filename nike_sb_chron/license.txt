@@ -1,0 +1,11 @@
+Model Information:
+* title:	NIKE SB Chron
+* source:	https://sketchfab.com/3d-models/nike-sb-chron-366f3c99baa54665a48ea7bb6d906717
+* author:	KingJulien (https://sketchfab.com/KingJulien)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NIKE SB Chron" (https://sketchfab.com/3d-models/nike-sb-chron-366f3c99baa54665a48ea7bb6d906717) by KingJulien (https://sketchfab.com/KingJulien) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
