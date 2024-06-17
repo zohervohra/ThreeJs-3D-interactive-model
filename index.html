@@ -7,9 +7,23 @@
     <style>
         body { margin: 0;  background-color: white;}
         canvas { display: block; }
+        #loadingMessage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(184, 184, 184, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            z-index: 1000;
+        }
     </style>
 </head>
 <body>
+    <div id="loadingMessage">Please wait for a couple of seconds...</div>
      <!-- scripts for three.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     

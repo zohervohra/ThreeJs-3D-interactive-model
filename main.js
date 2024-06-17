@@ -6,6 +6,11 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio); // Adjust for device pixel ratio
 document.body.appendChild(renderer.domElement);
 
+const loadingMessage = document.getElementById('loadingMessage');
+loadingMessage.style.display = 'block';
+
+
+
 // Orbit Controls
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true; // Enable damping (inertia)
@@ -52,6 +57,11 @@ loader.load('nike/scene.gltf', function (gltf) {
     // Update controls target to the center of the model
     controls.target.copy(new THREE.Vector3(0, 0, 0));
     controls.update();
+
+    // Hide loading message
+    loadingMessage.style.display = 'none';
+    
+
 }, undefined, function (error) {
     console.error(error);
 });
